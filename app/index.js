@@ -10,7 +10,7 @@ function words (word) {
 
 	for (let i = 0; i < arr.length; i++) {
     	if (arr[i] != '') {
-        	if (!wordOccurs[arr[i]]) {
+        	if (!wordOccurs[arr[i].name]) {
          	   wordOccurs[arr[i]] = 0;
         	}
         wordOccurs[arr[i]]++;
